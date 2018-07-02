@@ -63,13 +63,13 @@ $(function() {
          {
           name: "password",
           title: "password",
-          type: "hidden",
+          type: "text",
           width: 50
         },
          {
           name: "level",
           title: "level",
-          type: "hidden",
+          type: "text",
           width: 50
         },
       
