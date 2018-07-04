@@ -34,6 +34,7 @@
           <a class="nav-link" href="<?php echo site_url()?>/pegawai">Pegawai</a>
            <a class="nav-link" href="<?php echo site_url() ?>/UserGrid/Dinamis">Admin</a>
             <a class="nav-link" href="<?php echo site_url()?>/Post_berita/lists">News</a>
+            <a class="nav-link" href="<?php echo site_url()?>/Post_berita/lists">About</a>
           
         
           <a href="<?php echo base_url('index.php/Login/logout') ?>" ">Logout</a>
