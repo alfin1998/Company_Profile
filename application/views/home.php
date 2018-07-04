@@ -111,15 +111,6 @@ echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
   </div>
 
 
-    <main role="main" class="container">
-      <div class="">
-        <h1>Home</h1>
-        <p class="lead">
-          <?php 
-echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
-        </p>
-      </div>
-    </main>
 
 
   <div class="w3-row-padding w3-grayscale">
