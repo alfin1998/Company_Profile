@@ -63,13 +63,13 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Rpg Mechanic</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+        <img src="<?php echo base_url(); ?>assets/images/Capture3.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Turn Based Control</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+        <img src="" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
