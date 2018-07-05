@@ -34,6 +34,7 @@
           <a class="nav-link" href="<?php echo site_url()?>/pegawai">Pegawai</a>
            <a class="nav-link" href="<?php echo site_url() ?>/UserGrid/Dinamis">Admin</a>
             <a class="nav-link" href="<?php echo site_url()?>/Post_berita/lists">News</a>
+            <a class="nav-link" href="<?php echo site_url()?>/Post_berita/lists">About</a>
           
         
           <a href="<?php echo base_url('index.php/Login/logout') ?>" ">Logout</a>
@@ -62,13 +63,13 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Rpg Mechanic</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+        <img src="<?php echo base_url(); ?>assets/images/Capture3.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Turn Based Control</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+        <img src="" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -110,15 +111,6 @@ echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
   </div>
 
 
-    <main role="main" class="container">
-      <div class="">
-        <h1>Home</h1>
-        <p class="lead">
-          <?php 
-echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
-        </p>
-      </div>
-    </main>
 
 
   <div class="w3-row-padding w3-grayscale">
@@ -139,19 +131,7 @@ echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p>Lets get in touch and talk about my next project.</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
-    </form>
-  </div>
+  
   
 <!-- End page content -->
 </div>
