@@ -10,40 +10,39 @@
 		}
 		public function insertPegawai()
 		{
-			$tgl=$this->input->post('tanggalLahir');
+			$tgl=$this->input->post('tglLahir');
 			$tglBaru=date_format(new DateTime($tgl),"Y-m-d");
 			$object = array(
-				'namaPegawai' => $this->input->post('namaPegawai'),
-				'alamatPegawai' => $this->input->post('alamatPegawai'),
-				'nipPegawai' => $this->input->post('nipPegawai'),
+				'nama' => $this->input->post('nama'),
+				'alamat' => $this->input->post('alamat'),
 				'tanggalLahir' => $tglBaru,
-				'foto' =>$this->upload->data('file_name'));
+				'foto' => $this->upload->data('file_name'));
 			$this->db->insert('pegawai', $object);
-
 		}
 
-		public function getPegawai($idPegawai)
+		public function getPegawai($id)
 		{
-			$this->db->where('idPegawai', $idPegawai);
+			$this->db->where('id', $id);
 			$query = $this->db->get('pegawai');
 			return $query->result();
 		}
 
-		public function updateById($idPegawai)
+		public function updateById($id)
 		{
 			$data = array(
-				'namaPegawai' => $this->input->post('namaPegawai'),
-				'nipPegawai' => $this->input->post('nipPegawai'),
+				'nama' => $this->input->post('nama'),
 				'tanggalLahir' => $this->input->post('tanggalLahir'),
-				'alamatPegawai' => $this->input->post('alamatPegawai'),
+				'alamat' => $this->input->post('alamat'),
 			);
-			$this->db->where('idPegawai', $idPegawai);
+			$this->db->where('id', $id);
 			$this->db->update('pegawai', $data);
 		}
-		public function delete($idPegawai) { 
-         if ($this->db->delete("pegawai", "idPegawai = ".$idPegawai)) { 
+
+		public function delete($id)
+		{ 
+        	if ($this->db->delete("pegawai", "id = ".$id)) { 
             return true; 
-         } 
+        }
       } 
 	}
 

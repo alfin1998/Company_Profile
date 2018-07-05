@@ -51,37 +51,49 @@
   </div>
 </header>
 
+
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
+    
+    <main role="main" class="container">
+      <div class="">
+        <h1></h1>
+        <p class="lead">
+          <?php 
+echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
+        </p>
+      </div>
+    </main>
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Game Developer</h3>
+
   </div>
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Rpg Mechanic</div>
+        <div class="w3-display-topleft w3-black w3-padding">Rpg Games</div>
         <img src="<?php echo base_url(); ?>assets/images/Capture3.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Turn Based Control</div>
-        <img src="" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">2D Games</div>
+        <img src="<?php echo base_url(); ?>assets/images/Capture5.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">2D HD Graphic</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">2D Era Games</div>
+        <img src="<?php echo base_url(); ?>assets/images/Capture4.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Rating 8.5</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">Overall 8.5</div>
+        <img src="<?php echo base_url(); ?>assets/images/Capture6.png" alt="House" style="width:100%">
       </div>
     </div>
   </div>
@@ -93,15 +105,6 @@
   <!-- About Section -->
 
 
-    <main role="main" class="container">
-      <div class="">
-        <h1>Home</h1>
-        <p class="lead">
-          <?php 
-echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
-        </p>
-      </div>
-    </main>
 
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
@@ -115,14 +118,14 @@ echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <img src="<?php echo base_url(); ?>assets/images/Capture7.png" alt="" style="width:100%">
       <h3>Muh. Alfin Z</h3>
       <p class="w3-opacity">CEO & Founder</p>
       <p>Creator of Company and website management.</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="/w3images/team1.jpg" alt="" style="width:100%">
       <h3>Hilda lauda Satria</h3>
       <p class="w3-opacity">Admin</p>
       <p>Website management.</p>
