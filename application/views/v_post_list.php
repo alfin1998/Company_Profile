@@ -6,16 +6,16 @@
 </head>
 
  <nav class="navbar navbar-expand-md navbar-dark bg-warning mb-4">
-      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="#">News</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <li><a class="nav-link" href="<?php echo site_url()?>/pegawai">Pegawai<span class="sr-only">(current)</span></a></li>
-           <li><a class="nav-link" href="<?php echo site_url() ?>/UserGrid/Dinamis">Admin</a></li>
-            <li><a class="nav-link" href="<?php echo site_url()?>/Post_berita/lists">News<span class="sr-only">(current)</span></a>
+            <li><a class="nav-link" href="<?php echo site_url()?>/Home">Go Back<span class="sr-only">(current)</span></a></li>
+           <!-- <li><a class="nav-link" href="<?php echo site_url() ?>/UserGrid/Dinamis">Admin</a></li>
+            <li><a class="nav-link" href="<?php echo site_url()?>/Post_berita/lists">News<span class="sr-only">(current)</span></a> -->
           </li>
         </ul>
         <form">
