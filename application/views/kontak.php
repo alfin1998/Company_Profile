@@ -6,7 +6,7 @@
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       
-          <a class="nav-link" href="<?php echo site_url()?>/pegawai">Home</a>
+          <a class="nav-link" href="javascript:history.go(-1)">Home</a>
            <a class="nav-link" href="<?php echo site_url() ?>/Alert1/index">Admin</a>
             <a class="nav-link" href="<?php echo site_url()?>/Alert/index">News</a>
             <a class="nav-link" href="<?php echo site_url()?>/Contact/index">Contact</a>

@@ -26,15 +26,15 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b></b> Coneyko Company</a>
+    <a href="" class="w3-bar-item w3-button"><b></b> Coneyko Company</a>
 
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       
-          <a class="nav-link" href="<?php echo site_url()?>/pegawai">Pegawai</a>
+          <a class="nav-link" href="">Home</a>
            <a class="nav-link" href="<?php echo site_url() ?>/UserGrid/Dinamis">Admin</a>
             <a class="nav-link" href="<?php echo site_url()?>/Post_berita/lists">News</a>
-            <a class="nav-link" href="<?php echo site_url()?>/Post_berita/lists">About</a>
+            <a class="nav-link" href="<?php echo site_url()?>/Contact/index">Contact</a>
           
         
           <a href="<?php echo base_url('index.php/Login/logout') ?>" ">Logout</a>
@@ -45,7 +45,7 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <img class="w3-image" src="assets/images/Capture.png" alt="Architecture" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b></b></span> <span class="w3-hide-small w3-text-light-grey">Coneyko Company</span></h1>
   </div>
@@ -144,7 +144,7 @@ echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Coneyko Company <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Reserved</a></p>
 </footer>
 
 <!-- Add Google Maps -->
