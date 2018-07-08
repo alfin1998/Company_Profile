@@ -26,6 +26,8 @@
       <h2 class="text-center">Data Pegawai</h2>
       <div class="container">
       <a href="<?php echo base_url('index.php/PegawaiDat/create') ?>" class="btn btn-primary my-3">Tambah</a>
+       <a href="<?php echo base_url('index.php/laporanpdf/index') ?>" class="btn btn-primary my-3">Report</a>
+
       <table class="table example">
         <br>
         <br>
@@ -45,7 +47,7 @@
               <td><?php echo $value['nama'] ?></td>
               <td><?php echo $value['tanggalLahir'] ?></td>
               <td><?php echo $value['alamat'] ?></td>
-              <td><img src="<?php echo base_url()?>assets/uploads/<?php echo $value['foto']?>" alt="" width="10" height="10"></td>
+              <td><img src="<?php echo base_url()?>assets/gambar/<?php echo $value['foto']?>" alt="" width="10" height="10"></td>
               <td>
                 <a href="<?php echo base_url("index.php/PegawaiDat/update/".$value['id']) ?>" class="btn btn-sm btn-success">Edit</a>
                 <a href="<?php echo base_url("index.php/PegawaiDat/deleteData/".$value['id']) ?>" class="btn btn-sm btn-danger">Hapus</a>
@@ -57,6 +59,7 @@
         </tbody>
       </table>
     </div>
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>

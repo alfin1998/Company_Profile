@@ -1,6 +1,6 @@
  <?php
  defined('BASEPATH') OR exit('No direct script access allowed');
- //untuk js grid
+ 
  class UserList extends CI_Model {
  
     public function getAll()
@@ -13,8 +13,12 @@
 
     public function save()
     {
-        $data= $this->input->post();
-        $this->db->insert('user', $data);
+       $data = array(
+                'username' => $this->input->post('username'),
+                'password' => md5($this->input->post('password')),
+                'level' => $this->input->post('level')
+            );
+            $this->db->insert('user',$data);
     }
 
     public function update()

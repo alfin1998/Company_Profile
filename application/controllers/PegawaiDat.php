@@ -28,7 +28,7 @@ class PegawaiDat extends CI_Controller {
 		}
 		else
 		{
-			$config['upload_path']		= './assets/uploads';
+			$config['upload_path']		= './assets/gambar';
 			$config['allowed_types']	= 'gif|jpg|png';
 			$config['max_size']			= 1000000000;
 			$config['max_width']		= 10240;
