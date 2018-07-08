@@ -11,7 +11,7 @@ class Post_berita extends CI_Controller{
 
 	function simpan_post(){
 		$config['upload_path'] = './assets/images/'; //path folder
-	    $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; //type yang dapat diakses bisa anda sesuaikan
+	    $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; //type yang dapat diakses bisa sesuaikan
 	    $config['encrypt_name'] = TRUE; //nama yang terupload nantinya
 
 	    $this->upload->initialize($config);

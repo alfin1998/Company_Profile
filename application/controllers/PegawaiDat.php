@@ -79,7 +79,7 @@ class PegawaiDat extends CI_Controller {
 		$this->load->helper("url");
 		$this->load->model("pegawai_model2");
 		$this->pegawai_model2->delete($id);
-		redirect('pegawai');
+		redirect('pegawaiDat');
 	}
 }
 

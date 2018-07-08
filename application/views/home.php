@@ -125,7 +125,7 @@ echo 'Selamat Datang,@'.$this->session->userdata('logged_in')['username']; ?>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="" style="width:100%">
+      <img src="assets/images/Capture7.jpg" alt="" style="width:100%">
       <h3>Hilda lauda Satria</h3>
       <p class="w3-opacity">Admin</p>
       <p>Website management.</p>
