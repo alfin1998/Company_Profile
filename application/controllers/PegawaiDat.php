@@ -28,7 +28,7 @@ class PegawaiDat extends CI_Controller {
 		}
 		else
 		{
-			$config['upload_path']		= './assets/uploads';
+			$config['upload_path']		= './assets/gambar';
 			$config['allowed_types']	= 'gif|jpg|png';
 			$config['max_size']			= 1000000000;
 			$config['max_width']		= 10240;
@@ -79,7 +79,7 @@ class PegawaiDat extends CI_Controller {
 		$this->load->helper("url");
 		$this->load->model("pegawai_model2");
 		$this->pegawai_model2->delete($id);
-		redirect('pegawai');
+		redirect('pegawaiDat');
 	}
 }
 

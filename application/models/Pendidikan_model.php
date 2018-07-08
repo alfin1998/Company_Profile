@@ -17,7 +17,7 @@
 		{
 			
 			$object = array(
-				'idPendidikan' => $this->input->post('idPendidikan'),
+				// 'idPendidikan' => $this->input->post('idPendidikan'),
 				'namaSekolah' => $this->input->post('namaSekolah'),
 				'tahunLulus' => $this->input->post('tahunLulus'),
 				'fk_pegawai' => $this->input->post('fk_pegawai')

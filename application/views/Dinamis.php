@@ -23,7 +23,7 @@
     <ul class="nav navbar-nav">
      <li class="active"><a href="<?php echo site_url('Home') ?>">Home</a></li>
       <li class="active"><a href="<?php echo site_url('PegawaiDat/index') ?>">Pegawai area</a></li>
-      <li><a class="nav-link" href="<?php echo site_url('Post_berita/index')?>">News<span class="sr-only">(current)</span></a>
+      <li><a class="nav-link" href="<?php echo site_url('Post_berita/index')?>">News Update<span class="sr-only">(current)</span></a>
      
       
       
